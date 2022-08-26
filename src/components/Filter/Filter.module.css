@@ -1,0 +1,18 @@
+.filterLabel {
+  display: inline-flex;
+  flex-direction: column;
+  /* min-width: 300px; */
+}
+
+.filterTitle {
+  margin-bottom: 10px;
+}
+.filterInput {
+  font-size: 14px;
+
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 0.25rem;
+}
