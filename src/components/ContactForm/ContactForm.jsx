@@ -64,3 +64,7 @@ export function ContactForm({ onSubmit }) {
     </form>
   );
 }
+
+ContactForm.protoType = {
+  onSubmit: PropTypes.func.isRequired,
+};
